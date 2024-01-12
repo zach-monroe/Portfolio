@@ -75,6 +75,10 @@
 }
 
 .container {
+  background-color: #ffffff00;
+}
+
+.row {
   background-color: antiquewhite;
   border-radius: 6px;
 }
