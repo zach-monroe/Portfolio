@@ -1,4 +1,4 @@
-#hero {
+.gradient {
   margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   overflow: auto;
@@ -79,7 +79,7 @@
 }
 
 .row {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   border-radius: 6px;
 }
 
@@ -96,4 +96,23 @@
 img {
   height: 40vh;
   border-radius: 4vh;
+}
+body,
+section,
+footer {
+  background-color: whitesmoke;
+}
+
+.my-4,
+.my-5 {
+  background-color: whitesmoke;
+  margin-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+#custom-cards {
+  background-color: whitesmoke;
+  border-radius: 6px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
