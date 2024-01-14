@@ -116,3 +116,7 @@ footer {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+#about_me {
+  height: 512px;
+}
