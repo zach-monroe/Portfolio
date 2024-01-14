@@ -118,5 +118,48 @@ footer {
 }
 
 #about_me {
+  height: 100%;
+}
+
+.carousel-item {
+  background-color: whitesmoke;
   height: 512px;
+}
+
+.carousel-item > img {
+  height: 512px;
+}
+
+#about_carousel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about_button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon .carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+#irl_card {
+  background-image: url("./images/irl.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#second_card {
+  background-image: url("./images/bulb.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#code_card {
+  background-image: url("./images/code.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
 }
